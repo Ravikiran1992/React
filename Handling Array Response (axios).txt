@@ -1,0 +1,20 @@
+<script>
+        var map = new GMaps({
+            div: '#map',
+            lat: 37.02009820136811,  // center of USA map
+            lng: -97.84423828125,
+            zoom: 5
+        });
+
+
+        var mapMarkers;  // <--- wanted to view this in console, so made it global
+        // NOTE:  drop multiple map markers, use an array of marker objects
+        axios.get('/api-jobs/LatestJobsMapMarkers.cshtml')
+            .then(function (response) {
+                mapMarkers = JSON.parse(response.data);
+                map.addMarkers(mapMarkers);
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+    </script>

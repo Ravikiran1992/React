@@ -101,8 +101,12 @@ particlesJS("particles-js", {
   "retina_detect": true
 });
 
-
-
+###################################################################################
+.particlejs canvas{
+    position: absolute;
+    width: 100%;
+}
+{/* <Particles params={Particleopt} className="particlejs" /> */}
 /* const Particleopt = {
   "particles": {
     "number": {

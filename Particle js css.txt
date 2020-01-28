@@ -100,3 +100,55 @@ particlesJS("particles-js", {
   },
   "retina_detect": true
 });
+
+
+
+/* const Particleopt = {
+  "particles": {
+    "number": {
+      "value": 60,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": ["#FFFF33", "#FFCC33", "#FF9933", "#FF6633", "#FF3333", "#FF0033"]
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#b6b2b2"
+      }
+    },
+    "opacity": {
+      "value": 0.5211089197812949,
+      "random": false,
+      "anim": {
+        "enable": true,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 8.017060304327615,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 12.181158184520175,
+        "size_min": 0.1,
+        "sync": true
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#FFFFFF",
+      "opacity": 0.4,
+      "width": 1
+    }
+
+  }
+} */
